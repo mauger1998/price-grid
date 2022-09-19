@@ -21,7 +21,7 @@ body {
 main {
     height:90vh;
     width:90vw;
-    border: 1px solid black;
+    
     
     
 }
@@ -32,13 +32,14 @@ main {
     grid-template-columns: 50% 50%;
     margin:25px;
     border-radius: 5px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
     
     
 }
 
 
+
 .one {
-    border:1px solid black;
     grid-column-start: span 2;
     border-radius: 5px 5px 0 0;
     background-color: white;
@@ -59,7 +60,6 @@ main {
 }
 
 .two {
-    border:1px solid black;
     background-color: hsl(179, 62%, 37%);
     border-radius: 0 0 0 5px;
     color:white;
@@ -72,9 +72,14 @@ main {
 }
 
 .three {
-    border:1px solid black;
     background-color: hsl(179, 62%, 43%);
     border-radius: 0 0 5px 0;
+    color:white;
+    display:flex;
+    flex-direction: column;
+    gap:40px;
+    line-height: 1.7;
+
 }
 
 .section1-title {
@@ -132,4 +137,23 @@ main {
     font-size:20px;
     color:hsl(179, 62%, 43%);
 }
+
+.section3-title {
+    margin-top:55px;
+    margin-left: 55px;
+    
+
+}
+
+.section3-para {
+    margin-left: 55px;
+    margin-right:110px ;
+    font-size: 17px;
+    color:hsl(220, 18%, 93%);
+    
+
+}
+
+
+
 
