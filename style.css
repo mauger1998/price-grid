@@ -25,7 +25,7 @@ main {
 .grid {
     display:grid;
     justify-content: center;
-    grid-template-columns: 30% 30%;
+    grid-template-columns: 40% 40%;
     margin:25px;
     
     
@@ -43,12 +43,16 @@ main {
 
 .two {
     border:1px solid black;
+    
+    background-color: hsl(179, 62%, 40%);
 
 
 }
 
 .three {
     border:1px solid black;
+    background-color: hsl(179, 62%, 43%);
+    
     
 
 }
