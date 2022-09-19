@@ -60,7 +60,7 @@ main {
 
 .two {
     border:1px solid black;
-    background-color: hsl(179, 62%, 40%);
+    background-color: hsl(179, 62%, 37%);
     border-radius: 0 0 0 5px;
     color:white;
     display:flex;
@@ -104,12 +104,25 @@ main {
 
 .price-box {
     margin-left: 55px;
+    display:flex;
+    align-items: center;
+    gap:20px;
+    font-size:25px;
 }
 
 .section2-para {
     margin-left: 55px;
+    
 }
 
 .signup {
     margin-left: 55px;
+    margin-right: 55px;
+    background-color: hsl(71, 73%, 54%);
+    max-width: 75%;
+}
+
+.per-month {
+    font-size:20px;
+    color:hsl(179, 62%, 43%);
 }
