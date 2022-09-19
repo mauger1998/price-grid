@@ -42,6 +42,10 @@ main {
     grid-column-start: span 2;
     border-radius: 5px 5px 0 0;
     background-color: white;
+    display:flex;
+    flex-direction: column;
+    gap:20px;
+    justify-content: center;
     
     
     
@@ -65,18 +69,19 @@ main {
 
 .section1-title {
     color:hsl(179, 62%, 43%);
-    margin-left: 50px;
+    margin-left: 55px;
+    
 }
 
 .section1-title2 {
     color:hsl(71, 73%, 54%);
-    margin-left:50px;
+    margin-left:55px;
 }
 
 .section1-para {
     color:hsl(218, 22%, 67%);
     line-height: 2;
-    margin-right: 85px;
-    margin-left: 50px;
+    margin-right: 80px;
+    margin-left: 55px;
     font-size: 20px;
 }
