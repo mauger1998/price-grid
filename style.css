@@ -2,6 +2,8 @@
     box-sizing: border-box;
     margin:0;
     padding:0;
+    font-family: 'Karla', sans-serif;
+
 
 }
 html {
@@ -62,4 +64,12 @@ main {
 
 .section1-title {
     color:hsl(179, 62%, 43%);
+}
+
+.section1-title2 {
+    color:hsl(71, 73%, 54%);
+}
+
+.section1-para {
+    color:hsl(218, 22%, 67%);
 }
