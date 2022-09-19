@@ -1,32 +1,41 @@
 * {
     box-sizing: border-box;
-    margin:0;
-    padding:0;
+
 }
+
 
 main {
     height:100vh;
-    width:100vw;
 }
 
 .grid {
-    border:1px solid black;
+    
     display:grid;
-    width:75vw;
-
+    justify-content: center;
+    grid-template-columns: 40% 40%;
+    max-height:90vh;
+    
+    
 }
+
 
 .one {
     border:1px solid black;
+    grid-column-start: span 2;
+    
+    
+
 
 }
 
 .two {
     border:1px solid black;
 
+
 }
 
 .three {
     border:1px solid black;
+    
 
 }
