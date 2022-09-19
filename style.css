@@ -44,6 +44,7 @@ main {
     background-color: white;
     
     
+    
 
 
 }
@@ -64,12 +65,18 @@ main {
 
 .section1-title {
     color:hsl(179, 62%, 43%);
+    margin-left: 50px;
 }
 
 .section1-title2 {
     color:hsl(71, 73%, 54%);
+    margin-left:50px;
 }
 
 .section1-para {
     color:hsl(218, 22%, 67%);
+    line-height: 2;
+    margin-right: 85px;
+    margin-left: 50px;
+    font-size: 20px;
 }
